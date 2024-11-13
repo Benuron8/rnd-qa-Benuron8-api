@@ -51,6 +51,12 @@ jobs:
       - name: Run Java RestAssured tests
         run: |
           mvn test
+          
+      - name: Upload Playwright Reports
+        uses: actions/upload-artifact@v3
+        with:
+         name: restassured-reports
+         path: test-outputs
 
       - name: Stop Docker Compose containers
         run: |
