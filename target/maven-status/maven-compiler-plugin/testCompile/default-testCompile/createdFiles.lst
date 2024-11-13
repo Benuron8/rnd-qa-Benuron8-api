@@ -1,1 +1,8 @@
-tests\OwnerApiTest.class
+tests\VetsApiTest.class
+utils\Utils.class
+tests\PetsApiTest.class
+model\Specialty.class
+model\Pet.class
+model\Vet.class
+model\Owner.class
+tests\OwnersApiTest.class

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Parallel Test Suite" parallel="classes" thread-count="4">
-  <test name="Pet Clinic API tests">
-    <classes>
-      <class name="tests.OwnersApiTest"/>
-      <class name="tests.VetsApiTest"/>
-      <class name="tests.PetsApiTest"/>
-      <!-- Add more classes as needed -->
-    </classes>
-  </test>
+	<test name="Pet Clinic API tests">
+		<classes>
+			<class name="tests.OwnersApiTest" />
+			<class name="tests.VetsApiTest" />
+			<class name="tests.PetsApiTest" />
+		</classes>
+	</test>
 </suite>
